@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(to bottom, #669bbc, #003049);
+    color: #fdf0d5;
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+}
+
+#header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    text-shadow: 5px 5px 0px  rgb(0, 46, 71);
+}
+
+
+
+#main-title {
+    font-size: 120px;
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    font-size: 35px;
+    margin-top: 0px;
+    color: #fdf0d5;
+}
+
+.insta {
+    color: #fdf0d5;
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 150px 200px 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf0d5;
+    border-radius: 20px;
+    color: #003049;
+    padding: 30px;
+}
+
+.info-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #c1121f;
+    text-decoration: underline;
+}
+
+.info {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 80px auto;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 20px;
+}
+
+.challenge-btn {
+    background-color: #bf121d;
+    color: #fdf0d5;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    width: 290px;
+}
+
+.challenge-btn:hover {
+    background-color: #910d16;
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.challenge-btn:active {
+    background-color: hsl(356, 83%, 21%);
+}
+
+
+
+#rest-work {
+    margin: 70px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf0d5;
+    border-radius: 20px;
+    color: #003049;
+    padding: 30px 0 70px 0;
+}
+
+#rest-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #003049;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.btn-group-rest {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 20px;
+}
+
+.rest-btn {
+    background-color: hsl(203, 39%, 47%);
+    color: #fdf0d5;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    width: 270px;
+    margin: 0 10px;
+}
+
+.rest-btn:hover {
+    background-color:  hsl(203, 39%, 37%);
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.rest-btn:active {
+    background-color:  hsl(203, 39%, 27%);
+}
+
+
+footer {
+    text-shadow: 3px 3px 0px hsl(201, 100%, 4%);
+    margin-top: 0;
+    padding: 20px;
+}

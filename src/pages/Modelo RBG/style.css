@@ -1,0 +1,198 @@
+html, body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(to bottom, #669bbc, #003049);
+    color: #fdf0d5;
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+}
+
+#header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    text-shadow: 5px 5px 0px  rgb(0, 46, 71);
+}
+
+#main-title {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.info {
+    margin: 50px 200px 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf0d5;
+    border-radius: 20px;
+    color: #003049;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+
+#challenge-container {
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf0d5;
+    border-radius: 20px;
+    color: #003049;
+    padding: 10px 30px;
+}
+
+#desafio2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #c1121f;
+    text-decoration: underline;
+}
+
+#desafio-info {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+#inner-container {
+    
+    display: flex;
+}
+
+#sliders-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+label {
+    color:#003049;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.single-slide {
+    margin: 20px auto;
+}
+    
+
+.slider {
+    margin: 10px auto;
+    width: 400px;
+    height: 10px; 
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 20px;
+}
+
+#slider1 {
+    background-color: #c1121f;
+}
+
+#slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: hsl(356, 83%, 21%);
+  border: none;
+  cursor: pointer;
+}
+
+#slider2 {
+    background-color:  #3fb92e;
+}
+
+#slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background:hsl(113, 60%, 25%);
+  border: none;
+  cursor: pointer;
+}
+
+#slider3 {
+    background-color: #669bbc;
+}
+
+#slider3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background:  hsl(203, 39%, 37%);
+  border: none;
+  cursor: pointer;
+}
+
+#color-images {
+    display: flex;
+    margin: 50px;
+}
+
+.image-container {
+    
+    display: flex;
+    transition: all 0.2s ease;
+    margin: 0px 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fdf0d5;
+    text-shadow: 2px 2px 0px  black;
+}
+
+.image-container:hover {
+    transform: scale(1.10);
+    transition: transform 0.2s ease-in-out;
+}
+
+#sliders-color {
+    background: rgb(128, 128, 128);
+}
+
+#color-to-match {
+    background-color: rgb(174, 10, 207)
+}
+
+#values-hint {
+    margin: 15px auto 25px auto;
+ }
+
+#values-hint h3 {
+    margin: 3px;
+    font-size: 25px;
+}
+
+#feedback {
+    margin: 25px auto 0px auto;
+    font-size: 50px;
+}
+
+#code-part {
+    margin: 0 auto 20px auto;
+    font-size: 25px;
+}
+
+

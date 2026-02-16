@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo RGB</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="header">
+        <h1 id="main-title">Modelo RGB</h1>
+    </div>
+
+    <div class="info">
+        <h3>O modelo RGB é um modelo de cor aditivo baseado em luz. RGB significa Red (Vermelho), Green (Verde) e Blue (Azul). Todas as cores são criadas combinando diferentes intensidades destas três luzes. Cada cor é representada por valores numéricos (normalmente de 0 a 255)</h3>
+    </div>
+
+    <div id="challenge-container">
+        <h2 id="desafio2">Desafio #2</h2>
+        <h3 id="desafio-info">Altera a quantidade de vermelho, verde e azul através das barras até atigires a cor na imagem</h3>
+
+        <div id="inner-container">
+            
+            <div id="sliders-container">
+            <form action="">
+                <div class="single-slide"><input type="range" min="0" max="255" class="slider" id="slider1"></div>
+                <div class="single-slide"><input type="range" min="0" max="255" class="slider" id="slider2"></div>
+                <div class="single-slide"><input type="range" min="0" max="255" class="slider" id="slider3"></div>
+            </form>
+            </div>
+
+            <div id="color-images">
+                <div class="image-container" id="sliders-color">Cor introduzida</div>
+                <div class="image-container" id="color-to-match">Cor a atingir</div>
+            </div>
+        </div>
+
+        <div id="values-hint">
+            <h3 id="vermelho">Valor de vermelho: </h3>
+            <h3 id="verde">Valor de verde: </h3>
+            <h3 id="azul">Valor de azul: </h3>
+            <h3></h3>
+        </div>
+
+        <h1 id="feedback"></h1>
+        <h3 id="code-part"></h3>
+    
+    </div>
+
+    <script src="mrgb.js"></script>
+</body>
+</html>
