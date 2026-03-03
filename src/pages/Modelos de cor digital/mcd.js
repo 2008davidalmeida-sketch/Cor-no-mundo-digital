@@ -34,7 +34,7 @@ option4.addEventListener('click', event => {
     setBackOriginal();
     event.target.style.border = "6px solid #18d100"
     feedback.textContent = 'Correto!'
-    codePart.textContent = 'Parte do código final: c1'
+    codePart.textContent = 'Parte do código final: bf'
 });
 
 option5.addEventListener('click', event => {
