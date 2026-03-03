@@ -1,0 +1,7 @@
+[build]
+  publish = "src"
+
+[[redirects]]
+  from = "/"
+  to = "/pages/Index/index.html"
+  status = 200
